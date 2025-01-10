@@ -21,14 +21,14 @@
 
 [![Downloads][downloads-shield]][downloads-url]
 
-[![Build status](https://ci.appveyor.com/api/projects/status/9w5a25r7wahkmbgl?svg=true)](https://ci.appveyor.com/project/scottjsh/AutoKkutu2)
+[![Build status](https://ci.appveyor.com/api/projects/status/w2rt13b3ycd9r8m5?svg=true)](https://ci.appveyor.com/project/scottjsh/autokkutu2)
 [![Issues](https://img.shields.io/github/issues/AutoKkutu2/AutoKkutu2.svg)](https://github.com/AutoKkutu2/AutoKkutu2/issues)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AutoKkutu2/AutoKkutu2)
 ![GitHub repo size](https://img.shields.io/github/repo-size/AutoKkutu2/AutoKkutu2)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2875f1a006f2b348bcef/maintainability)](https://codeclimate.com/github/AutoKkutu2/AutoKkutu2/maintainability)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=scottjsh_AutoKkutu&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=scottjsh_AutoKkutu)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=scottjsh_AutoKkutu&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=scottjsh_AutoKkutu)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=scottjsh_AutoKkutu&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=scottjsh_AutoKkutu)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=AutoKkutu2_AutoKkutu2&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=AutoKkutu2_AutoKkutu2)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=AutoKkutu2_AutoKkutu2&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=AutoKkutu2_AutoKkutu2)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=AutoKkutu2_AutoKkutu2&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=AutoKkutu2_AutoKkutu2)
 
 AutoKkutu는 끄투 헬퍼 V (KKutu-Helper V) Release v5.6.8500 버전을 개조하여 만들어졌습니다.
 원 프로그램은 [여기](https://drive.google.com/file/d/1p_vTzLbkIPz-NBLuhEKTdK3ij55u7KNk/view?usp=sharing)에서, 글은 [여기](https://gall.dcinside.com/mgallery/board/view/?id=kkutu&no=395)에서 보실 수 있습니다. 원본 프로그램에서는 CloudPlatform UI를 사용했지만, 이 부분은 개발 과정에서 제거되었습니다.
