@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <CodeAnalysisRuleSet>..\.sonarlint\scottjsh_autokkutucsharp.ruleset</CodeAnalysisRuleSet>
+        <Configurations>DebugCefSharp;ReleaseCefSharp;ReleaseSelenium;DebugSelenium</Configurations>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="..\.sonarlint\scottjsh_autokkutu\CSharp\SonarLint.xml" Link="SonarLint.xml" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CefSharp.Common.NETCore" Version="119.1.20" />
+        <PackageReference Include="CefSharp.Wpf.NETCore" Version="119.1.20" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\AutoKkutuLib\AutoKkutuLib.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Properties\CefSharpResources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>CefSharpResources.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Properties\CefSharpResources.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>CefSharpResources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+</Project>
