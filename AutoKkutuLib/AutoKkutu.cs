@@ -1,4 +1,4 @@
-using AutoKkutuLib.Browser;
+﻿using AutoKkutuLib.Browser;
 using AutoKkutuLib.Database;
 using AutoKkutuLib.Database.Helper;
 using AutoKkutuLib.Game;
