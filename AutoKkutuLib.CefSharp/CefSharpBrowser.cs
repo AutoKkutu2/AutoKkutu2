@@ -40,7 +40,7 @@ public class CefSharpBrowser : BrowserBase
 		SetIfAvail(config.JavascriptFlags, s => settings.JavascriptFlags = s);
 		SetIfAvail(config.UserAgentProduct, s => settings.UserAgentProduct = s);
 		SetIfAvail(ReplaceCd(config.LocalesDirPath), s => settings.LocalesDirPath = s);
-		SetIfAvail(config.UserAgent, s => settings.UserAgent = s + ' /CefSharp Browser' + Cef.CefSharpVersion);
+		SetIfAvail(config.UserAgent, s => settings.UserAgent = s + " /CefSharp Browser" + Cef.CefSharpVersion);
 		SetIfAvail(config.AcceptLanguageList, s => settings.AcceptLanguageList = s);
 		SetIfAvail(config.Locale, s => settings.Locale = s);
 		SetIfAvail(config.CookieableSchemesList, s => settings.CookieableSchemesList = s);
